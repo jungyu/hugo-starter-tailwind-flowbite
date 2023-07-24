@@ -12,17 +12,15 @@ This setup can be used both as a starter project and a theme.
 ## As a Project
 
 ```bash
-npm install
+yarn install
 hugo server
 ```
 
 ## As a Theme
 
-Import `github.com/bep/hugo-starter-tailwind-basic/v3` (use `github.com/bep/hugo-starter-tailwind-basic/v2` if you want/need Tailwind 2.x.) into your project, and then run:
-
 ```bash
 hugo mod npm pack
-npm install
+yarn install
 ```
 
 You need to add (something like) this to your `hugo.toml`:
